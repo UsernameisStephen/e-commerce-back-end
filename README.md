@@ -7,7 +7,9 @@
 * [Usage](#usage)
 * [License](#license)
 * [Tests](#tests)
+* [Contributions](#contributions)
 * [Questions](#questions)
+
 
 ## Description
 
@@ -17,10 +19,25 @@
 
 ## Installation
 
+Clone this repo and install the following first:
+* Node
+* MySQL2
 
+Then open your terminal and run:
 
+```npm i```
+
+Then create an environment variable(.env) file and add your MySQL username and MySQL password. A sample .env file is provided.
 
 ## Usage
+
+Follow video to use the application: 
+
+
+
+https://user-images.githubusercontent.com/100049940/162867667-6edb8f59-f194-463c-8583-d403e4a212e4.mp4
+
+
 
 
 
@@ -36,6 +53,10 @@ This app is covered by a MIT license. For more information please checkout this 
 
 No test created for this assignment.
 
+
+## Contributions
+
+Neema Velasco
 
 
 ## Questions
