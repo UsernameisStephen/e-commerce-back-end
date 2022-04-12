@@ -23,7 +23,7 @@ router.get('/:id', async (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
   try {
-    const getProducts = await Product.findByProd(req.params.id, {include: [Category, Tag] });
+    const getProducts = await Product.findByPk(req.params.id, {include: [Category, Tag] });
       if (!getProducts) {
         res.status(404).json({message: 'This is not the Product ID you are looking for.'});
       return;
